@@ -26,9 +26,6 @@ const characters = [
 'ghibli.16',
 'ghibli.17',
 'ghibli.18',
-'ghibli.19',
-'ghibli.20',
-'ghibli.21',
 
 ];
 
@@ -45,7 +42,7 @@ let secondCard = '';
 const checkEndGame = () => {
   const disabledCards = document.querySelectorAll('.disabled-card');
 
-  if (disabledCards.length === 30) {
+  if (disabledCards.length === 36) {
     clearInterval(this.loop);
     alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi de: ${timer.innerHTML}`);
   }
