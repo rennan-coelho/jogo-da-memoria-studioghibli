@@ -44,6 +44,12 @@ let secondCard = '';
 
 const checkEndGame = () => {
   const disabledCards = document.querySelectorAll('.disabled-card');
+  
+  if (disabledCards.length === 30) {
+    clearInterval(this.loop);
+    alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi de: ${timer.innerHTML}`);
+  }
+}
 
   
 
