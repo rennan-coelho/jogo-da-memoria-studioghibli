@@ -41,19 +41,12 @@ let secondCard = '';
 
 const checkEndGame = () => {
   const disabledCards = document.querySelectorAll('.disabled-card');
-<<<<<<< HEAD
 
   if (disabledCards.length === 36) {
-=======
-  
-  if (disabledCards.length === 30) {
->>>>>>> 217c25e4def22fb6ceec191e8892e15207e02226
     clearInterval(this.loop);
     alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi de: ${timer.innerHTML}`);
   }
 }
-
-  
 
 //checando as cartas 
 const checkCards = () => {
